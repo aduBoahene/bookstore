@@ -1,0 +1,52 @@
+.book{
+    background-color: white;
+    margin-right:20px;
+    cursor: pointer;
+}
+
+.book>img{
+    height:200px
+}
+
+.bookList{
+    display: flex;
+}
+
+.book__labels{
+    display: flex;
+    flex-direction: column;
+    padding:3px;
+}
+
+.book__title{
+ font-size:1em;
+ color:#4b4b4f;
+ font-family: 'Poppins', sans-serif;
+ font-weight:bold;
+
+
+
+ white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ white-space: pre-wrap;       /* css-3 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+ white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+ word-break: break-all;
+ white-space: normal;
+
+}
+
+.book__author{
+    font-size:0.8em;
+ color:#4b4b4f;
+ font-family: 'Poppins', sans-serif;
+}
+
+.book__price{
+    margin-top:5px;
+    font-size:1em;
+ color:#4b4b4f;
+ font-family: 'Poppins', sans-serif;
+ font-weight:bold;
+}

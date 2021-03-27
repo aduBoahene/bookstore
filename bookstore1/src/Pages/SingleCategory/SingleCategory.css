@@ -1,0 +1,32 @@
+
+.singleCategory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.singleCategory{
+    margin-right:30px;
+    border-radius:30px;
+}
+
+
+.singleCategory__list{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px !important;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.singleCategory__list > img{
+    height:60px
+}
+
+.singleCategory__label{
+    font-family: 'Poppins', sans-serif;
+}
