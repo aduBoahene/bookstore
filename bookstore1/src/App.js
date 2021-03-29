@@ -1,18 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './Pages/Hearder/Header';
-import Hero from './Pages/Hero/Hero';
-import CategoryList from './Pages/CategoryList/CategoryList';
-import Body from './Pages/Body/Body';
+import Home from './Pages/Home/Home';
+import Header from '../src/Components/Hearder/Header';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import BookView from './Pages/BookView/BookView';
 
 function App() {
   return (
-    <div className="app">
-      <Header/>
-      <Hero/>
-      <CategoryList/>
-      <Body/>
+    <Router>
+      <div className="app">
+        <Header/>
+        <Route path="/" exact component={Home}/>
+        <Route path="/BookView/:bookid" component={BookView}/>
     </div>
+    </Router>
+    
   );
 }
 

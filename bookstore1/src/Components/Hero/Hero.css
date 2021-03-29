@@ -1,6 +1,6 @@
 .hero{
     background-color: #6b97996b;
-    padding: 30px;
+    padding: 10px 0px 30px 0px;
 }
 
 .hero__left{
@@ -19,7 +19,7 @@
 .hero__text{
     font-size:4em;
     font-family: 'Abril Fatface', cursive;
-    line-height:85%;   
+    line-height:90%;   
 }
 
 .hero__right > img{
