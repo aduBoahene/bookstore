@@ -8,8 +8,12 @@ export default function Hero() {
         <div className="hero">
             <div className="hero__content">
                 <div className="hero__left">
-                    <h3 className="hero__text">
+                    {/* <h3 className="hero__text">
                     Once you learn to <br/>read, you'll forever be free
+                    </h3> */}
+
+                    <h3 className="hero__text">
+                        find your book and loose yourself
                     </h3>
 
                     <div className="hero__searchArea">
