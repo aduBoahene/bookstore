@@ -1,0 +1,24 @@
+.body{
+    background-color: #DDDEE7;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.body__heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.body__container{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.body__head{
+    color:#a4a5ae;
+    font-family: 'Poppins', sans-serif;
+    font-family: bold;
+ }
+
+

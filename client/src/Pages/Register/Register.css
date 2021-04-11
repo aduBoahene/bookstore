@@ -1,0 +1,16 @@
+.register{
+        display: grid;
+        justify-content: center;
+}
+
+.register__names{
+    display: flex;
+}
+
+.login__text{
+    margin-right:20px !important;
+}
+
+.login__textinput{
+    width:500px;
+}
